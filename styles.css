@@ -1,0 +1,66 @@
+body {
+    background-color: #74EBD5;
+    background-image: linear-gradient(to right, #23e9c5 0%, #7187ea 100%);
+}
+
+.mainDiv {
+    padding: 2.5rem 0;
+    text-align: center;
+}
+
+.headingSection {
+    
+}
+
+.imgSection {
+    width: 7rem;
+    margin: auto;
+    max-width: 100%;
+}
+
+img {
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.border {
+    border: 2px solid #ffffff !important;
+}
+
+.heading {
+    font-size: 1.25rem;
+    font-family: cursive;
+    font-weight: lighter;
+    margin: 1rem;
+}    
+
+.mDiv {
+    margin: 3.5rem;
+}
+
+.element{
+    border-radius: 10px;
+    margin: 1.5rem 26% 0;
+}
+
+.btn {
+    width: 65ch;
+    max-width: 65ch;
+    border-radius: 5px;
+    font-weight: 700;
+    opacity: 0.5;
+}
+
+.footer {
+    position: absolute;
+    margin: 0px 36.08rem;
+    bottom: 40px;
+}
+
+button :hover {
+    background-color: black !important;
+}
+
+h1 :hover {
+    opacity: 0.5 !important;
+}
