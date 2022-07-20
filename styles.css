@@ -1,11 +1,17 @@
+html 
+{
+  min-height: 100%;
+} 
+
 body {
     background-color: #74EBD5;
-    background-image: linear-gradient(to right, #23e9c5 0%, #7187ea 100%);
+    background-image: linear-gradient( -109.6deg, rgb(129, 255, 249) 11.2%, rgb(97, 113, 255) 91.1% );
 }
 
 .mainDiv {
     padding: 2.5rem 0;
     text-align: center;
+    
 }
 
 .imgSection {
@@ -49,9 +55,11 @@ img {
 }
 
 .footer {
-    position: relative;
+    position: fixed;
     width: 100%;
-    bottom: -30px;
+    bottom: 30px;
+    justify-content: center;
+    display: flex;
 }
 
 button:hover {
@@ -59,14 +67,8 @@ button:hover {
    transition:opacity .5s ease-out 0s; 
 }
 
-/* @media (max-width: 765px){
-    .element {
-        margin: 1.5rem 0 0;
+@media (max-width: 1028px){
+    .footer {
+        position: relative;
     }
-} */
-
-/* @media (max-width: 1028px){
-    .element {
-        margin: 1.5rem 17% 0;
-    }
-} */
+}
