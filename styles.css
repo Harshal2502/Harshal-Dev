@@ -1,17 +1,15 @@
-html 
-{
-  min-height: 100%;
-} 
+html {
+    min-height: 100%;
+}
 
 body {
     background-color: #74EBD5;
-    background-image: linear-gradient( -109.6deg, rgb(129, 255, 249) 11.2%, rgb(97, 113, 255) 91.1% );
+    background-image: linear-gradient(-109.6deg, rgb(129, 255, 249) 11.2%, rgb(97, 113, 255) 91.1%);
 }
 
 .mainDiv {
     padding: 2.5rem 0;
     text-align: center;
-    
 }
 
 .imgSection {
@@ -35,13 +33,13 @@ img {
     font-family: cursive;
     font-weight: lighter;
     margin: 1rem;
-}    
+}
 
 .mDiv {
     margin: 3.5rem;
 }
 
-.element{
+.element {
     border-radius: 10px;
     margin: 1.5rem auto 0;
 }
@@ -57,18 +55,24 @@ img {
 .footer {
     position: fixed;
     width: 100%;
-    bottom: 30px;
+    bottom: 25px;
     justify-content: center;
     display: flex;
 }
 
 button:hover {
-   opacity: 1;
-   transition:opacity .5s ease-out 0s; 
+    opacity: 1;
+    transition: opacity .5s ease-out 0s;
 }
 
-@media (max-width: 1028px){
+@media (max-width: 1028px) {
     .footer {
         position: relative;
+    }
+
+    .heading {
+        font-family: sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
     }
 }
